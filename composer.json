@@ -1,0 +1,14 @@
+{
+    "require": {
+        "illuminate/database": "5.0.28",
+        "illuminate/events": "5.0.28",
+        "illuminate/pagination": "5.0.28",
+        "wixel/gump": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "application/models/"
+        ],
+        "files": [ "application/libraries/settergetter/setter_getter_kajian.php"]
+    }
+}
