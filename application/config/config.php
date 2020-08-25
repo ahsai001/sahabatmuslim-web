@@ -19,6 +19,7 @@
 //$newurl = str_replace("index.php","", $_SERVER['SCRIPT_NAME']);
 //$config['base_url']    = "$http" . $_SERVER['SERVER_NAME'] . "" . $newurl;
 $config['base_url'] = 'https://sahabatmuslim.zaitunlabs.com';
+
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -47,6 +48,7 @@ $config['index_page'] = '';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
+
 $config['uri_protocol']	= 'REQUEST_URI';
 
 /*
